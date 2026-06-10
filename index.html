@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>포켓몬 스타팅 Picker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 진행 바 -->
+  <div class="progress-bar">
+    <div class="progress-fill" id="progress-fill"></div>
+  </div>
+
+  <!-- 헤더 -->
+  <header id="main-header">
+  <div class="gen-label">스타팅 포켓몬 Picker</div>
+
+  <!-- 이름 입력 (1세대일 때만 보임) -->
+  <div id="name-input-wrap">
+    <input type="text" id="trainer-name" placeholder="이름을 입력해주세요" maxlength="10" />
+  </div>
+
+  <h1 id="gen-title"></h1>
+  <p class="subtitle">가장 좋아하는 스타팅을 골라주세요</p>
+</header>
+
+  <!-- 포켓몬 카드들 -->
+  <div id="pokemon-container"></div>
+
+  <!-- 다음 버튼 -->
+  <button id="next-btn">다음→</button>
+
+  <!-- 결과 화면 -->
+  <div id="result-screen"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
