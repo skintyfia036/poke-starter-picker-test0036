@@ -6,73 +6,73 @@ const generations = [
   {
     name: "1세대",
     pokemon: [
-      { name: "이상해씨", img: "img/bulbasaur.png" },
-      { name: "파이리",   img: "img/charmander.webp" },
-      { name: "꼬부기",   img: "img/squirtle.webp" }
+      { name: "이상해꽃", imgFinal: "imgFinal/venusaur.webp",    imgBase: "imgBase/bulbasaur.png" },
+      { name: "리자몽",   imgFinal: "imgFinal/charizard.webp",   imgBase: "imgBase/charmander.webp" },
+      { name: "거북왕",   imgFinal: "imgFinal/blastoise.webp",   imgBase: "imgBase/squirtle.webp" }
     ]
   },
   {
     name: "2세대",
     pokemon: [
-      { name: "치코리타", img: "img/chikorita.webp" },
-      { name: "브케인",   img: "img/cyndaquil.webp" },
-      { name: "리아코",   img: "img/totodile.webp" }
+      { name: "메가니움", imgFinal: "imgFinal/meg.webp",       imgBase: "imgBase/chikorita.webp" },
+      { name: "블레이범",   imgFinal: "imgFinal/typ.webp",     imgBase: "imgBase/cyndaquil.webp" },
+      {name: "장크로다일",   imgFinal: "imgFinal/fer.webp",    imgBase: "imgBase/totodile.webp"   }
     ]
   },
   {
     name: "3세대",
     pokemon: [
-      { name: "나무지기", img: "img/treecko.webp" },
-      { name: "아차모",   img: "img/torchic.webp" },
-      { name: "물짱이",   img: "img/mudkip.png" }
+      { name: "나무킹",   imgFinal: "imgFinal/scep.webp",     imgBase: "imgBase/treecko.webp" },
+      { name: "번치코",   imgFinal: "imgFinal/blaz.webp",     imgBase: "imgBase/torchic.webp" },
+      { name: "대짱이",   imgFinal: "imgFinal/swam.webp",     imgBase: "imgBase/mudkip.png" }
     ]
   },
   {
     name: "4세대",
     pokemon: [
-      { name: "모부기",   img: "img/turtwig.webp" },
-      { name: "불꽃숭이", img: "img/chimchar.webp" },
-      { name: "팽도리",   img: "img/piplup.png" }
+      { name: "토대부기", imgFinal: "imgFinal/tor.webp",     imgBase: "imgBase/turtwig.webp" },
+      { name: "초염몽",   imgFinal:   "imgFinal/inf.webp",   imgBase: "imgBase/chimchar.webp"},
+      { name: "엠페르트",   imgFinal:   "imgFinal/emp.webp",   imgBase: "imgBase/piplup.png" }
     ]
   },
   {
     name: "5세대",
     pokemon: [
-      { name: "주리비얀", img: "img/snivy.webp" },
-      { name: "뚜꾸리",   img: "img/tepig.webp" },
-      { name: "수댕이",   img: "img/oshawott.png" }
+      { name: "샤로다",   imgFinal: "imgFinal/sha.webp",       imgBase: "imgBase/snivy.webp" },
+      { name: "염무왕",   imgFinal: "imgFinal/yum.webp",       imgBase: "imgBase/tepig.webp" },
+      { name: "대겸귀",   imgFinal: "imgFinal/dae.webp",      imgBase: "imgBase/oshawott.png" }
     ]
   },
   {
     name: "6세대",
     pokemon: [
-      { name: "도치마론", img: "img/chespin.webp" },
-      { name: "푸호꼬",   img: "img/fennekin.webp" },
-      { name: "개구마르", img: "img/froakie.webp" }
+      { name: "브리가론",  imgFinal: "imgFinal/bri.webp",   imgBase: "imgBase/chespin.webp" },
+      { name: "마폭시",   imgFinal: "imgFinal/maf.webp",  imgBase: "imgBase/fennekin.webp" },
+      { name: "개굴닌자", imgFinal: "imgFinal/gae.webp",  imgBase: "imgBase/froakie.webp" }
     ]
   },
   {
     name: "7세대",
     pokemon: [
-      { name: "나몰빼미", img: "img/rowlet.webp" },
-      { name: "냐오불",   img: "img/litten.webp" },
-      { name: "누리공",   img: "img/popplio.png" }
+      { name: "모크나이퍼", imgFinal: "imgFinal/mok.webp", imgBase: "imgBase/rowlet.webp" },
+      { name: "어흥염",   imgFinal: "imgFinal/auh.webp", imgBase: "imgBase/litten.webp" },
+      { name: "누리레느",   imgFinal: "imgFinal/nuli.webp", imgBase: "imgBase/popplio.png" }
     ]
   },
   {
     name: "8세대",
     pokemon: [
-      { name: "흥나숭",   img: "img/grookey.webp" },
-      { name: "염버니",   img: "img/scorbunny.webp" },
-      { name: "울머기",   img: "img/sobble.webp" }
+      { name: "고릴타",    imgFinal: "imgFinal/gor.webp",  imgBase: "imgBase/grookey.webp" },
+      { name: "에이스번",   imgFinal: "imgFinal/ace.webp", imgBase: "imgBase/scorbunny.webp" },
+      { name: "인텔리레온",  imgFinal: "imgFinal/int.webp", imgBase: "imgBase/sobble.webp" }
     ]
   },
   {
     name: "9세대",
     pokemon: [
-      { name: "냐오하",   img: "img/sprigatito.webp" },
-      { name: "뜨아거",   img: "img/fuecoco.webp" },
-      { name: "꾸왁스",   img: "img/quaxly.webp" }
+      { name: "마스카나", imgFinal: "imgFinal/mas.webp",  imgBase: "imgBase/sprigatito.webp" },
+      { name: "라우드본", imgFinal: "imgFinal/laud.webp",  imgBase: "imgBase/fuecoco.webp" },
+      { name: "웨이니발", imgFinal: "imgFinal/wai.webp",   imgBase: "imgBase/quaxly.webp" }
     ]
   }
 ];
@@ -118,27 +118,33 @@ function renderGen() {
     const card = document.createElement("div");
     card.classList.add("pokemon-card");
 
-    // 이미지
-    const img = document.createElement("img");
-    img.src = poke.img;
-    img.alt = poke.name;
-    img.onerror = function() {
-      // 이미지가 없을 때 빈 자리 유지 (에러 아이콘 제거)
-      this.style.opacity = "0.1";
-    };
+    // 이미지 두 개
+const imgFinal = document.createElement("img");
+imgFinal.src = poke.imgFinal;
+imgFinal.classList.add("img-final");
+imgFinal.alt = poke.name;
+imgFinal.onerror = function () { this.style.opacity = "0.1"; };
 
-    // 이름
-    const nameEl = document.createElement("h2");
-    nameEl.textContent = poke.name;
+const imgBase = document.createElement("img");
+imgBase.src = poke.imgBase;
+imgBase.classList.add("img-base");
+imgBase.onerror = function () { this.style.opacity = "0.1"; };
 
-    // 체크 표시
-    const check = document.createElement("div");
-    check.classList.add("check");
-    check.textContent = "✔";
+const nameEl = document.createElement("h2");
+nameEl.textContent = poke.name;
 
-    card.appendChild(img);
-    card.appendChild(nameEl);
-    card.appendChild(check);
+const check = document.createElement("div");
+check.classList.add("check");
+check.textContent = "✔";
+
+const imgWrap = document.createElement("div");
+imgWrap.classList.add("img-wrap");
+imgWrap.appendChild(imgBase);   // 왼쪽
+imgWrap.appendChild(imgFinal);  // 오른쪽
+
+card.appendChild(imgWrap);   // img 두 개를 wrap으로 묶어서
+card.appendChild(nameEl);
+card.appendChild(check);
 
     // 이전에 이미 선택했으면 표시 복원
     if (selected[currentGen] && selected[currentGen].name === poke.name) {
@@ -149,7 +155,7 @@ function renderGen() {
     // 클릭 이벤트
     card.addEventListener("click", () => {
       // 저장
-      selected[currentGen] = { name: poke.name, img: poke.img };
+      selected[currentGen] = { name: poke.name, imgFinal: poke.imgFinal };
 
       // 다른 카드 선택 해제
       document.querySelectorAll(".pokemon-card")
@@ -181,7 +187,7 @@ nextBtn.addEventListener("click", () => {
 });
 
 function showResult() {
-  const resultScreen = document.getElementById("result-screen"); // ← 이거 추가!
+  const resultScreen = document.getElementById("result-screen"); 
   
   document.getElementById("main-header").style.display = "none";
   container.style.display = "none";
@@ -194,7 +200,7 @@ function showResult() {
     <div class="result-grid">
       ${selected.map((pick, i) => `
         <div class="result-card">
-          <img src="${pick.img}" alt="${pick.name}" onerror="this.style.opacity='0.1'"/>
+          <img src="${pick.imgFinal}" alt="${pick.name}" onerror="this.style.opacity='0.1'"/>
           <span class="result-gen">${generations[i].name}</span>
           <span class="result-name">${pick.name}</span>
         </div>
